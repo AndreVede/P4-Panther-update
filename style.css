@@ -517,7 +517,7 @@ button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  visibility: hidden;
+  visibility: auto;
   z-index: 500;
   transition: all 0.3s ease-in-out;
 }
@@ -703,6 +703,11 @@ p {
 
 .social {
   max-width: 400px;
+  margin: auto auto auto auto;
+}
+.social-icon {
+  display: block;
+  width: 48px;
   margin: auto auto auto auto;
 }
 
